@@ -764,7 +764,7 @@ ul.list {
 
 /****************************footer************************/
 
-footer {
+/* footer {
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -778,7 +778,7 @@ footer p,
 footer p a.link {
     font-weight: bold;
 }
-
+ */
 
 /**********************form**********************/
 
@@ -876,3 +876,43 @@ dl.adr dd a:hover {}
     display: inline-block;
     margin: 0 0px 0 20px;
 }
+
+.footer {
+    padding-top: 50px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    content: "";
+    width: 100%;
+    height:100% ;
+    top: 0;
+   
+}
+/* .footer::before {
+    padding-top:200px;
+   position: absolute;
+   content: "";
+   width: 100%;
+   height:100% ;
+   background-color: black;
+   top: 0;
+   opacity: 0.1;
+
+} */
+.footer-item {
+   text-align: center;color: #000;
+   width: calc(100%/4);
+   float: left;
+}
+.footer h2 {
+   color: var(--text-color);
+   font-size:35px;
+   margin-bottom: 20px;
+  
+}
+.footer p {
+   margin: 20px;
+   font-size:20px;
+}
+
